@@ -2,9 +2,9 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-item-template',
-  imports: [],
   templateUrl: './item-template.component.html',
-  styleUrl: './item-template.component.scss'
+  styleUrl: './item-template.component.scss',
+  imports: []
 })
 export class ItemTemplateComponent {
 

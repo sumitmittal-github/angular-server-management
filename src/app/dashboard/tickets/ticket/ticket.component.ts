@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ticket',
-  imports: [],
   templateUrl: './ticket.component.html',
-  styleUrl: './ticket.component.scss'
+  styleUrl: './ticket.component.scss',
+  imports: []
 })
 export class TicketComponent {
 
