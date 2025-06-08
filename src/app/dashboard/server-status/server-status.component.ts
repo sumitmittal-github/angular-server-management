@@ -1,5 +1,4 @@
-import { Component, Output } from '@angular/core';
-import { DashboardItemComponent } from "../dashboard-item/dashboard-item.component";
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-server-status',

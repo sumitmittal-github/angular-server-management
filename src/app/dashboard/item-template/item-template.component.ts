@@ -1,12 +1,12 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard-item',
+  selector: 'app-item-template',
   imports: [],
-  templateUrl: './dashboard-item.component.html',
-  styleUrl: './dashboard-item.component.scss'
+  templateUrl: './item-template.component.html',
+  styleUrl: './item-template.component.scss'
 })
-export class DashboardItemComponent {
+export class ItemTemplateComponent {
 
   @Input({required: true}) 
   image!: {src: string, alt: string};
