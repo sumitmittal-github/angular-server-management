@@ -4,7 +4,10 @@ import { Component, Input } from '@angular/core';
   selector: 'app-item-template',
   templateUrl: './item-template.component.html',
   styleUrl: './item-template.component.scss',
-  imports: []
+  imports: [],
+  host: {
+    class: 'dashboard-item'
+  }
 })
 export class ItemTemplateComponent {
 
